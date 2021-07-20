@@ -1,5 +1,9 @@
 ## Instando e configurando Django
 
+Django é um fremework para python que permite criar aplicações webs com arquitetura MVC. 
+
+O primeiro passo para instalar o Django é digitar o comando no terminal (Linux/Mac): pip install django
+
 You can use the [editor on GitHub](https://github.com/charlyBraga/Django-receitas/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
