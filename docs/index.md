@@ -2,7 +2,17 @@
 
 Django é um fremework para python que permite criar aplicações webs com arquitetura MVC. 
 
-O primeiro passo para instalar o Django é digitar o comando no terminal (Linux/Mac): pip install django
+Para instalar o Django, basta digitar o comando no terminal (Linux/Mac): pip install django. Porém o Django será instalado em todo seu Sistema Operacional. Desse modo, existe uma forma de instalá-lo somente no ambiente onde vamos trabalhar, utilizando venv. Uma venv é um ambiente virtual para Python, que isola e fornece todas as condições para rodas aplicações Python. Para instalá-la, digita o comando no seu terminal:
+```
+> python3 -m venv ./venv
+```
+A documentação do venv pode ser encontrada em https://docs.python.org/3/library/venv.html. Caso tenha dificuldade para instalar venv, devido algum problema de bilbioteca, pode utilizar antes um gerenciador de pacotes, como conda, encontrado em https://docs.conda.io/en/latest/miniconda.html.
+- Instalar Django: pip install django
+- Criar projeto: python3 manage.py startproject
+- Criar app: python3 manage.py startapp receitas
+- Registrar em alurareceita/settings.py/INSTALLED_APPS = ['receitas']
+-  
+
 
 You can use the [editor on GitHub](https://github.com/charlyBraga/Django-receitas/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
